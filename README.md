@@ -2,12 +2,17 @@
 
 Исправьте код так, чтобы в результате выполнения функции executeAll([1, 2, 3, 4, 5]) в консоли отобразилось:
 
-Operation 1 complete 
-Operation 2 complete 
-Operation 3 complete 
-Operation 4 complete 
-Operation 5 complete 
-All operations completed 
+Operation 1 complete
+
+Operation 2 complete
+
+Operation 3 complete
+
+Operation 4 complete
+
+Operation 5 complete
+
+All operations completed
 
 ## Описание неисправности
 
