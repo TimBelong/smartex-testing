@@ -30,8 +30,8 @@ const generateLottoCardNumbers = (): (number | null)[][] => {
                 do {
                     number = Math.floor(Math.random() * (max - min + 1)) + min;
                 } while (
-                    card.flat().includes(number) || // уникальность на карточке
-                    card[row].includes(number) // уникальность в строке
+                    card.flat().includes(number) ||
+                    card[row].includes(number)
                     );
                 card[row][col] = number;
                 filled++;
@@ -44,12 +44,12 @@ const generateLottoCardNumbers = (): (number | null)[][] => {
 
 const App: React.FC = () => {
     const [numbers, setNumbers] = useState(generateLottoCardNumbers);
-    const numbersRef = useRef(numbers); // Хранит массив чисел
+    const numbersRef = useRef(numbers);
 
     const handleGenerateNewCard = () => {
         const newNumbers = generateLottoCardNumbers();
         setNumbers(newNumbers);
-        numbersRef.current = newNumbers; // обновляем ref
+        numbersRef.current = newNumbers;
     };
 
     return (
