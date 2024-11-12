@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/smartex-testing/static/css/main.30a351ea.css",
-    "main.js": "/smartex-testing/static/js/main.8cf28a40.js",
+    "main.css": "/smartex-testing/static/css/main.35171de9.css",
+    "main.js": "/smartex-testing/static/js/main.e95e9043.js",
     "index.html": "/smartex-testing/index.html",
-    "main.30a351ea.css.map": "/smartex-testing/static/css/main.30a351ea.css.map",
-    "main.8cf28a40.js.map": "/smartex-testing/static/js/main.8cf28a40.js.map"
+    "main.35171de9.css.map": "/smartex-testing/static/css/main.35171de9.css.map",
+    "main.e95e9043.js.map": "/smartex-testing/static/js/main.e95e9043.js.map"
   },
   "entrypoints": [
-    "static/css/main.30a351ea.css",
-    "static/js/main.8cf28a40.js"
+    "static/css/main.35171de9.css",
+    "static/js/main.e95e9043.js"
   ]
 }
